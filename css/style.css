@@ -295,3 +295,31 @@ ul {
     font-weight: bold;
     border-bottom: 4px solid #1E77E2;
 }
+
+.works-data {
+    margin: 0 auto;
+    width: 1200px;
+    padding-top: 50px;
+    /* border: 1px solid #1E77E2; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.works {
+    width: 200px;
+    cursor: pointer;
+}
+
+.works .work-title {
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.work-avatar {
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid #1E77E2;
+    border-radius: 10px; */
+}
