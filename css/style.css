@@ -227,13 +227,67 @@ ul {
 
 
 .page-experience {
-    background-color: #F2F2F2;
+    background-color: #F2F2FF;
     height: 100vh;
     padding: 50px 150px;
-    border: 2px solid red;
 }
 
 .experience-header {
+    text-align: center;
+    padding-bottom: 15px;
+    color: #1E77E2;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.experience-title {
+    padding: 3px 0;
+    margin: 0;
+    border-bottom: 3px solid #1E77E2;
+    text-align: center;
+}
+
+.expo-data {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.expo {
+    width: 40%;
+}
+
+.expo-data .expo-title {
+    color: #1E77E2;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.expo-data .expo-subtitle {
+    color: #0D90D1;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.expo-description ul li {
+    list-style: none;
+}
+
+/* ---------------------------- */
+
+
+/* Section page-works */
+
+.page-works {
+    background-color: #F2F2F2;
+    height: 100vh;
+    padding: 50px 150px;
+}
+
+.works-header {
     text-align: center;
     padding-bottom: 15px;
     color: #1E77E2;
