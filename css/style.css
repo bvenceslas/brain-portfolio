@@ -1,6 +1,130 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 * {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
+
+/*class content*/
+.content {
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+/*class page-front*/
+.page-front {
+    background-color: #031924;
+    height: 100vh;
+}
+
+
+/* header*/
+header {
+    padding: 30px 150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .nav-links {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+/* --- header --- */
+
+/* class data */
+.data {
+    margin: 150px 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-data {
+    width: 70%;
+}
+
+.personal-name {
+    color: #1E77E2;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.personal-title {
+    /* width: 90%; */
+    color: white;
+    font-size: 45px;
+    line-height: normal;
+}
+
+.personal-description {
+    padding-top: 10px;
+    color: white;
+    font-size: 26px;
+}
+
+.personal-fullname {
+    color: #0D90D1;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.social-links {
+    padding: 10px 0;
+}
+
+.social-links .socials {
+    padding-left: 15px;
+}
+
+.button-actions {
+    width: 47%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-download  {
+    width: 160px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    color: #1E77E2;
+    background: white;
+
+
+}
+
+.btn-touch {
+    width: 100px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    color: #1E77E2;
+    background: white;
+}
+
+.personal-image img{
+    width: 330px;
+    border-radius: 50%;
+}
+
+
+/* --- class data --- */
+
 
