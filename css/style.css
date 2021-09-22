@@ -4,6 +4,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    padding: 0;
+    margin: 0;
+}
+
 /*class content*/
 .content {
     width: 100%;
@@ -11,7 +16,7 @@
     height: 100vh;
 }
 
-/*class page-front*/
+/*section page-front*/
 .page-front {
     background-color: #031924;
     height: 100vh;
@@ -128,3 +133,88 @@ header .nav-links {
 /* --- class data --- */
 
 
+
+/* ---------------------------- */
+
+
+/* Section About */
+.page-about {
+    background-color: #F2F2F2;
+    height: 100vh;
+    padding: 50px 150px;
+}
+
+.about-header {
+    text-align: center;
+    padding-bottom: 15px;
+    color: #1E77E2;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 4px solid #1E77E2;
+}
+
+.about-data {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.pic {
+    padding-top: 0px;
+}
+
+
+.pic img {
+    margin-right: 70px;
+}
+.pic img:hover {
+    cursor: pointer;
+    -webkit-transform:rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.track-title {
+    color: #1E77E2;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    padding: 0;
+}
+
+.myList {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.myList img {
+    height: 30px;
+}
+
+.myList p {
+    padding-left: 10px;
+}
+
+.about-description {
+    padding-top: 30px;
+    width: 700px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.about-build {
+    color: #1E77E2;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about-got {
+    padding-top: 30px;
+    line-height: 1.5;
+    font-size: 18px;
+}
