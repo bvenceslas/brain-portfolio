@@ -218,3 +218,26 @@ ul {
     line-height: 1.5;
     font-size: 18px;
 }
+
+
+/* ---------------------------- */
+
+
+/* Section page-experience */
+
+
+.page-experience {
+    background-color: #F2F2F2;
+    height: 100vh;
+    padding: 50px 150px;
+    border: 2px solid red;
+}
+
+.experience-header {
+    text-align: center;
+    padding-bottom: 15px;
+    color: #1E77E2;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 4px solid #1E77E2;
+}
