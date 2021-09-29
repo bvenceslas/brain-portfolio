@@ -13,7 +13,7 @@
 
         <!-- Main section -->
 
-        <section class="page-front">
+        <section id="main" class="page-front">
             <header>
                 <div class="logo">
                     <a href="#">
@@ -23,11 +23,11 @@
                 <nav>
                     <ul class="nav-links">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Experience</a></li>
-                        <li><a href="#">Works</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#works">Works</a></li>
+                        <li><a href="#article">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </header>
@@ -71,7 +71,7 @@
 
                     </div>
                     <div class="button-actions">
-                        <a class="btn-download" href="https://docs.google.com/document/d/1zp6EeaNTmatfYEPIC4q3oPvDI8mHbT1v/edit?usp=sharing&ouid=100762544120477163567&rtpof=true&sd=true">
+                        <a class="btn-download" target="_blank" class=href="https://docs.google.com/document/d/1zp6EeaNTmatfYEPIC4q3oPvDI8mHbT1v/edit?usp=sharing&ouid=100762544120477163567&rtpof=true&sd=true">
                             Download Resume
                         </a>
 
@@ -88,7 +88,7 @@
 
         <!-- About section -->
 
-        <section class="page-about">
+        <section id="about" class="page-about">
 
             <!-- About header -->
 
@@ -191,7 +191,7 @@
 
         <!-- Experience section -->
         
-        <section class="page-experience">
+        <section id="experience" class="page-experience">
 
             <!-- Experience header -->
 
@@ -291,7 +291,7 @@
 
         <!-- Works section -->
 
-        <section class="page-works">
+        <section id="works" class="page-works">
 
             <!-- About header -->
 
@@ -340,7 +340,7 @@
 
         <!-- Education section -->
 
-        <section class="page-education">
+        <section id="education" class="page-education">
 
             <!-- education header -->
 
@@ -386,7 +386,7 @@
 
         <!-- Article section -->
 
-        <section class="page-article">
+        <section id="article" class="page-article">
 
             <!-- page article -->
 
@@ -450,7 +450,7 @@
 
         <!-- Contact section -->
 
-        <section class="page-contact">
+        <section id="contact" class="page-contact">
 
             <!-- Contact header -->
 
@@ -533,8 +533,10 @@
             <footer>
                 <div>© 2021 Venceslas BURONGU</div>
                 <div class="go-home">
-                    Back to Home
-                    <img src="./img/home.png" alt="go home">
+                    <a href="#" scroll-behavior: auto;>Back to Home</a>
+                    <a href="#"><img src="./img/home.png" alt="go home"></a>
+
+                    
                 </div>
             </footer>
 
