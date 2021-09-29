@@ -436,3 +436,103 @@ ul {
     text-align: right;
 }
 
+/* ---------------------------- */
+
+
+/* Section contact */
+
+.page-contact {
+    background-color: #031924;
+    height: 100vh;
+    padding: 50px 150px 0px 150px;
+}
+
+.contact-header {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contact-data {
+    margin: 150px auto;
+    max-width: 1300px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.identity-card {
+    width: 400px;
+    height: 400px;
+}
+
+.full-name {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.identity-data {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.identity-data p {
+    margin-left: 10px;
+}
+
+.social-ico {    
+    margin-left: 25px;
+}
+
+.contact-form {
+    padding: 20px;
+    width: 600px;
+}
+
+.contact-form .text-input {
+    padding: 5px 10px;
+    margin: 5px 0;
+    width: 99%;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.contact-form .textarea-input {
+    padding: 5px 10px;
+    margin: 5px 0;
+    width: 99%;
+    font-size: 16px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.contact-form .submit-btn {
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .go-home {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.go-home img {
+    margin-left: 5px;
+}
