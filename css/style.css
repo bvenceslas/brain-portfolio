@@ -4,6 +4,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -453,6 +457,7 @@ ul {
     padding-bottom: 15px;
     font-size: 30px;
     font-weight: bold;
+    border-bottom: 4px solid #fff;
 }
 
 .contact-data {
@@ -535,4 +540,9 @@ footer .go-home {
 
 .go-home img {
     margin-left: 5px;
+}
+
+.go-home a {
+    text-decoration: none;
+    color: #fff;
 }
