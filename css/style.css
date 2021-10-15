@@ -698,5 +698,203 @@ footer .go-home {
 
 }
 
+/* Tablets to small screens */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /*class content*/
+    .content {
+        width: 100%;
+        margin: 0 auto;
+    }
 
+    /*section page-front*/
+    .page-front {
+        width: 100%;
+    }
+
+    /* header*/
+    header {
+        padding: 30px 30px;
+    }
+
+    .nav-links li {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    /* --- header --- */
+
+    /* class data */
+    .data {
+        margin: 150px 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .personal-name {
+        font-size: 27px;
+    }
+
+    .personal-title {
+        font-size: 30px;
+    }
+
+    .personal-description {
+        font-size: 16px;
+    }
+
+    .button-actions {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .btn-download  {
+        width: 140px;
+        padding: 10px;
+    }
+    
+    .btn-touch {
+        width: 90px;
+        padding: 10px;
+    }
+
+    .personal-image img{
+        width: 250px;
+    }
+
+    /* Section About */
+    .page-about {
+        padding: 50px 50px;
+    }
+
+    .pic img {
+        width: 270px;
+        margin-right: 50px;
+    }
+
+    .myList p {
+        padding-left: 5px;
+    }
+
+    .about-description {
+        width: 500px;
+    }
+
+    /* Section page-experience */
+
+
+    .page-experience {
+        padding: 50px 50px;
+    }
+
+    .expo-data {
+        width: 650px;
+    }
+
+    .expo {
+        width: 45%;
+    }
+
+    /* Section page-works */
+
+    .page-works {
+        padding: 50px 50px;
+    }
+
+    
+
+    .works-data {
+        width: 700px;
+    }
+
+    .works {
+        width: 180px;
+        margin-right: 20px;
+    }
+
+    .work-avatar {
+        width: 180px;
+        height: 180px;
+    }
+
+    /* Section article */
+
+    .page-article {
+        padding: 50px 50px;
+    }
+
+    
+    .article-data {
+        margin: 30px auto;
+        justify-content: space-between;
+    }
+
+    .article {
+        width: 200px;
+        height: 180px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    .article .article-description {
+        font-size: 16px;
+    }
+
+    .article-year {
+        margin-top: 15px;
+    }
+
+    /* Contact */
+
+    .page-contact {
+        padding: 50px 50px 0px 50px;
+    }
+    
+    
+    
+    .contact-data {
+        margin: 50px auto 150px auto;
+        max-width: 1300px;
+    }
+    
+    .identity-card {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .full-name {
+        font-size: 18px;
+    }
+    
+    /* .identity-data p {
+        margin-left: 10px;
+    } */
+    
+    .social-ico {    
+        margin-left: 10px;
+    }
+    
+    .contact-form {
+        width: 500px;
+    }
+    
+    .contact-form .text-input {
+        padding: 5px 8px;
+    }
+    
+    .contact-form .textarea-input {
+        padding: 5px 8px;
+    }
+    
+    .contact-form .submit-btn {
+        padding: 10px 15px;
+    }
+
+
+}
+
+
+/* ipads and tablets combined to mobile devices*/
+@media screen and (min-width: 320px) and (max-width: 480) {
+    
+}
 
