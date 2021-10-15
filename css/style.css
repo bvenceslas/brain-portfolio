@@ -546,3 +546,157 @@ footer .go-home {
     text-decoration: none;
     color: #fff;
 }
+
+/* Media queries */
+
+/* large screens and desktops combined to small screens */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /*class content*/
+    .content {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /*section page-front*/
+    .page-front {
+        width: 100%;
+    }
+
+    /* header*/
+    header {
+        padding: 30px 50px;
+    }
+
+    .nav-links li {
+        margin-left: 30px;
+    }
+
+    /* --- header --- */
+
+    /* class data */
+    .data {
+        margin: 150px 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .personal-name {
+        font-size: 30px;
+    }
+
+    .personal-title {
+        font-size: 34px;
+    }
+
+    .personal-description {
+        font-size: 20px;
+    }
+
+    .button-actions {
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .personal-image img{
+        width: 300px;
+    }
+
+    /* Section About */
+    .page-about {
+        padding: 50px 70px;
+    }
+
+    .pic img {
+        width: 350px;
+    }
+    
+
+    .myList {
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+
+    .myList img {
+        height: 30px;
+    }
+
+    .myList p {
+        padding-left: 10px;
+    }
+
+    .about-description {
+        width: 600px;
+    }
+
+    /* Section page-experience */
+
+
+    .page-experience {
+        padding: 50px 70px;
+    }
+
+    .expo-data {
+        width: 900px;
+    }
+
+    .expo {
+        width: 45%;
+    }
+
+    /* Section page-works */
+
+    .page-works {
+        padding: 50px 70px;
+    }
+
+    
+
+    .works-data {
+        width: 900px;
+    }
+
+    .works {
+        width: 200px;
+        margin-right: 20px;
+    }
+
+    .work-avatar {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* Section article */
+
+    .page-article {
+        padding: 50px 70px;
+    }
+
+    
+    .article-data {
+        margin: 30px auto;
+        justify-content: space-between;
+    }
+
+    .article {
+        width: 200px;
+        height: 180px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    .article .article-title {
+        font-size: 18px;
+        margin-bottom: 10px; 
+    }
+
+    .article-year {
+        margin-top: 15px;
+    }
+
+
+}
+
+
+
