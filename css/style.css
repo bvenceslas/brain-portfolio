@@ -1107,7 +1107,6 @@ footer .go-home {
         /* height: 100vh; */
         overflow: scroll;
         padding: 30px 20px;
-        border: 1px solid red;
     }
     
     .experience-header {
@@ -1303,7 +1302,6 @@ footer .go-home {
     
     .page-contact {
         padding: 30px 20px 0px 20px;
-        border: 1px solid red;
     }
     
     .contact-header {
@@ -1363,7 +1361,6 @@ footer .go-home {
         margin: 0 auto;
         padding: 10px;
         width: 90%;
-        border: 1px solid red;
     }
     
     .contact-form .text-input {
